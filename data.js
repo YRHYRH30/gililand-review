@@ -417,6 +417,316 @@ var SECS = [
     ]
   },
   {
+    "id": "stickers-framesize",
+    "nav": "מדבקות לגודל",
+    "title": "מדבקות בגודל המסגרת של האלבום",
+    "navImg": "img/stickers-framesize/nav.jpg",
+    "tall": false,
+    "details": "42 מדבקות בגודל הריבועים של אלבום v4b, לא 40×40. רשת של 10 משבצות: 36.5×36.5 מ״מ. רשת של 7 או 8 משבצות: 37.5×37.5 מ״מ. פורמט כמו הקובץ של יעל v8b: מדבקה בעמוד, גלישה 3 מ״מ, FOGRA39, בלי סימני חיתוך. לא נשלח לגילי.",
+    "pages": [
+      {
+        "id": "fs-check-p02",
+        "label": "התאמה באלבום, עמוד 2 (36.5 מ״מ)",
+        "src": "img/stickers-framesize/check-p02.jpg",
+        "thumb": "img/stickers-framesize/thumbs/check-p02.jpg"
+      },
+      {
+        "id": "fs-check-p08",
+        "label": "התאמה באלבום, עמוד 8 (37.5 מ״מ)",
+        "src": "img/stickers-framesize/check-p08.jpg",
+        "thumb": "img/stickers-framesize/thumbs/check-p08.jpg"
+      },
+      {
+        "id": "fs-check-p10",
+        "label": "התאמה באלבום, עמוד 10 (36.5 מ״מ)",
+        "src": "img/stickers-framesize/check-p10.jpg",
+        "thumb": "img/stickers-framesize/thumbs/check-p10.jpg"
+      },
+      {
+        "id": "fs-check-p14",
+        "label": "התאמה באלבום, עמוד 14 (37.5 מ״מ)",
+        "src": "img/stickers-framesize/check-p14.jpg",
+        "thumb": "img/stickers-framesize/thumbs/check-p14.jpg"
+      },
+      {
+        "id": "fs-zoom-p02",
+        "label": "זום מסגרת 36.5 מ״מ",
+        "src": "img/stickers-framesize/zoom-p02.jpg",
+        "thumb": "img/stickers-framesize/thumbs/zoom-p02.jpg"
+      },
+      {
+        "id": "fs-zoom-p08",
+        "label": "זום מסגרת 37.5 מ״מ",
+        "src": "img/stickers-framesize/zoom-p08.jpg",
+        "thumb": "img/stickers-framesize/thumbs/zoom-p08.jpg"
+      },
+      {
+        "id": "fs-compare-old-new",
+        "label": "השוואה: 40 / 39 / 36.5 מ״מ",
+        "src": "img/stickers-framesize/compare-old-new.jpg",
+        "thumb": "img/stickers-framesize/thumbs/compare-old-new.jpg"
+      },
+      {
+        "id": "fs-contact",
+        "label": "גיליון כל 42 המדבקות",
+        "src": "img/stickers-framesize/contact.jpg",
+        "thumb": "img/stickers-framesize/thumbs/contact.jpg"
+      },
+      {
+        "id": "fs-s01",
+        "label": "מדבקה 01 · I (girl) · 36.5 מ״מ",
+        "src": "img/stickers-framesize/s01.jpg",
+        "thumb": "img/stickers-framesize/thumbs/s01.jpg"
+      },
+      {
+        "id": "fs-s02",
+        "label": "מדבקה 02 · LIKE (heart) · 36.5 מ״מ",
+        "src": "img/stickers-framesize/s02.jpg",
+        "thumb": "img/stickers-framesize/thumbs/s02.jpg"
+      },
+      {
+        "id": "fs-s03",
+        "label": "מדבקה 03 · A GUITAR · 36.5 מ״מ",
+        "src": "img/stickers-framesize/s03.jpg",
+        "thumb": "img/stickers-framesize/thumbs/s03.jpg"
+      },
+      {
+        "id": "fs-s04",
+        "label": "מדבקה 04 · I (girl 2) · 36.5 מ״מ",
+        "src": "img/stickers-framesize/s04.jpg",
+        "thumb": "img/stickers-framesize/thumbs/s04.jpg"
+      },
+      {
+        "id": "fs-s05",
+        "label": "מדבקה 05 · A BALL · 36.5 מ״מ",
+        "src": "img/stickers-framesize/s05.jpg",
+        "thumb": "img/stickers-framesize/thumbs/s05.jpg"
+      },
+      {
+        "id": "fs-s06",
+        "label": "מדבקה 06 · THE ROBOT · 36.5 מ״מ",
+        "src": "img/stickers-framesize/s06.jpg",
+        "thumb": "img/stickers-framesize/thumbs/s06.jpg"
+      },
+      {
+        "id": "fs-s07",
+        "label": "מדבקה 07 · YELLOW · 36.5 מ״מ",
+        "src": "img/stickers-framesize/s07.jpg",
+        "thumb": "img/stickers-framesize/thumbs/s07.jpg"
+      },
+      {
+        "id": "fs-s08",
+        "label": "מדבקה 08 · I (girl) · 36.5 מ״מ",
+        "src": "img/stickers-framesize/s08.jpg",
+        "thumb": "img/stickers-framesize/thumbs/s08.jpg"
+      },
+      {
+        "id": "fs-s09",
+        "label": "מדבקה 09 · WANT (thought) · 36.5 מ״מ",
+        "src": "img/stickers-framesize/s09.jpg",
+        "thumb": "img/stickers-framesize/thumbs/s09.jpg"
+      },
+      {
+        "id": "fs-s10",
+        "label": "מדבקה 10 · A RED · 36.5 מ״מ",
+        "src": "img/stickers-framesize/s10.jpg",
+        "thumb": "img/stickers-framesize/thumbs/s10.jpg"
+      },
+      {
+        "id": "fs-s11",
+        "label": "מדבקה 11 · DOLL · 36.5 מ״מ",
+        "src": "img/stickers-framesize/s11.jpg",
+        "thumb": "img/stickers-framesize/thumbs/s11.jpg"
+      },
+      {
+        "id": "fs-s12",
+        "label": "מדבקה 12 · YOU (hand) · 36.5 מ״מ",
+        "src": "img/stickers-framesize/s12.jpg",
+        "thumb": "img/stickers-framesize/thumbs/s12.jpg"
+      },
+      {
+        "id": "fs-s13",
+        "label": "מדבקה 13 · 2 · 36.5 מ״מ",
+        "src": "img/stickers-framesize/s13.jpg",
+        "thumb": "img/stickers-framesize/thumbs/s13.jpg"
+      },
+      {
+        "id": "fs-s14",
+        "label": "מדבקה 14 · BALLOONS · 36.5 מ״מ",
+        "src": "img/stickers-framesize/s14.jpg",
+        "thumb": "img/stickers-framesize/thumbs/s14.jpg"
+      },
+      {
+        "id": "fs-s15",
+        "label": "מדבקה 15 · FATHER · 37.5 מ״מ",
+        "src": "img/stickers-framesize/s15.jpg",
+        "thumb": "img/stickers-framesize/thumbs/s15.jpg"
+      },
+      {
+        "id": "fs-s16",
+        "label": "מדבקה 16 · A BLACK · 37.5 מ״מ",
+        "src": "img/stickers-framesize/s16.jpg",
+        "thumb": "img/stickers-framesize/thumbs/s16.jpg"
+      },
+      {
+        "id": "fs-s17",
+        "label": "מדבקה 17 · CAR · 37.5 מ״מ",
+        "src": "img/stickers-framesize/s17.jpg",
+        "thumb": "img/stickers-framesize/thumbs/s17.jpg"
+      },
+      {
+        "id": "fs-s18",
+        "label": "מדבקה 18 · SISTER · 37.5 מ״מ",
+        "src": "img/stickers-framesize/s18.jpg",
+        "thumb": "img/stickers-framesize/thumbs/s18.jpg"
+      },
+      {
+        "id": "fs-s19",
+        "label": "מדבקה 19 · 2 · 37.5 מ״מ",
+        "src": "img/stickers-framesize/s19.jpg",
+        "thumb": "img/stickers-framesize/thumbs/s19.jpg"
+      },
+      {
+        "id": "fs-s20",
+        "label": "מדבקה 20 · DOLLS · 37.5 מ״מ",
+        "src": "img/stickers-framesize/s20.jpg",
+        "thumb": "img/stickers-framesize/thumbs/s20.jpg"
+      },
+      {
+        "id": "fs-s21",
+        "label": "מדבקה 21 · THE HAT · 36.5 מ״מ",
+        "src": "img/stickers-framesize/s21.jpg",
+        "thumb": "img/stickers-framesize/thumbs/s21.jpg"
+      },
+      {
+        "id": "fs-s22",
+        "label": "מדבקה 22 · MOTHER · 36.5 מ״מ",
+        "src": "img/stickers-framesize/s22.jpg",
+        "thumb": "img/stickers-framesize/thumbs/s22.jpg"
+      },
+      {
+        "id": "fs-s23",
+        "label": "מדבקה 23 · A SKIRT · 36.5 מ״מ",
+        "src": "img/stickers-framesize/s23.jpg",
+        "thumb": "img/stickers-framesize/thumbs/s23.jpg"
+      },
+      {
+        "id": "fs-s24",
+        "label": "מדבקה 24 · THE SKIRT · 36.5 מ״מ",
+        "src": "img/stickers-framesize/s24.jpg",
+        "thumb": "img/stickers-framesize/thumbs/s24.jpg"
+      },
+      {
+        "id": "fs-s25",
+        "label": "מדבקה 25 · ORANGE · 36.5 מ״מ",
+        "src": "img/stickers-framesize/s25.jpg",
+        "thumb": "img/stickers-framesize/thumbs/s25.jpg"
+      },
+      {
+        "id": "fs-s26",
+        "label": "מדבקה 26 · COCO · 36.5 מ״מ",
+        "src": "img/stickers-framesize/s26.jpg",
+        "thumb": "img/stickers-framesize/thumbs/s26.jpg"
+      },
+      {
+        "id": "fs-s27",
+        "label": "מדבקה 27 · 3 · 36.5 מ״מ",
+        "src": "img/stickers-framesize/s27.jpg",
+        "thumb": "img/stickers-framesize/thumbs/s27.jpg"
+      },
+      {
+        "id": "fs-s28",
+        "label": "מדבקה 28 · EYES · 36.5 מ״מ",
+        "src": "img/stickers-framesize/s28.jpg",
+        "thumb": "img/stickers-framesize/thumbs/s28.jpg"
+      },
+      {
+        "id": "fs-s29",
+        "label": "מדבקה 29 · THE TIGER · 37.5 מ״מ",
+        "src": "img/stickers-framesize/s29.jpg",
+        "thumb": "img/stickers-framesize/thumbs/s29.jpg"
+      },
+      {
+        "id": "fs-s30",
+        "label": "מדבקה 30 · THE GREEN · 37.5 מ״מ",
+        "src": "img/stickers-framesize/s30.jpg",
+        "thumb": "img/stickers-framesize/thumbs/s30.jpg"
+      },
+      {
+        "id": "fs-s31",
+        "label": "מדבקה 31 · I (girl) · 37.5 מ״מ",
+        "src": "img/stickers-framesize/s31.jpg",
+        "thumb": "img/stickers-framesize/thumbs/s31.jpg"
+      },
+      {
+        "id": "fs-s32",
+        "label": "מדבקה 32 · WANT (thought) · 37.5 מ״מ",
+        "src": "img/stickers-framesize/s32.jpg",
+        "thumb": "img/stickers-framesize/thumbs/s32.jpg"
+      },
+      {
+        "id": "fs-s33",
+        "label": "מדבקה 33 · THE COW · 37.5 מ״מ",
+        "src": "img/stickers-framesize/s33.jpg",
+        "thumb": "img/stickers-framesize/thumbs/s33.jpg"
+      },
+      {
+        "id": "fs-s34",
+        "label": "מדבקה 34 · THE MONKEY · 37.5 מ״מ",
+        "src": "img/stickers-framesize/s34.jpg",
+        "thumb": "img/stickers-framesize/thumbs/s34.jpg"
+      },
+      {
+        "id": "fs-s35",
+        "label": "מדבקה 35 · A HAT · 37.5 מ״מ",
+        "src": "img/stickers-framesize/s35.jpg",
+        "thumb": "img/stickers-framesize/thumbs/s35.jpg"
+      },
+      {
+        "id": "fs-s36",
+        "label": "מדבקה 36 · THE GIRAFFE · 37.5 מ״מ",
+        "src": "img/stickers-framesize/s36.jpg",
+        "thumb": "img/stickers-framesize/thumbs/s36.jpg"
+      },
+      {
+        "id": "fs-s37",
+        "label": "מדבקה 37 · TALL (arrow) · 37.5 מ״מ",
+        "src": "img/stickers-framesize/s37.jpg",
+        "thumb": "img/stickers-framesize/thumbs/s37.jpg"
+      },
+      {
+        "id": "fs-s38",
+        "label": "מדבקה 38 · BANANA · 37.5 מ״מ",
+        "src": "img/stickers-framesize/s38.jpg",
+        "thumb": "img/stickers-framesize/thumbs/s38.jpg"
+      },
+      {
+        "id": "fs-s39",
+        "label": "מדבקה 39 · YES I DO (girl) · 37.5 מ״מ",
+        "src": "img/stickers-framesize/s39.jpg",
+        "thumb": "img/stickers-framesize/thumbs/s39.jpg"
+      },
+      {
+        "id": "fs-s40",
+        "label": "מדבקה 40 · BANANA PIZZA · 37.5 מ״מ",
+        "src": "img/stickers-framesize/s40.jpg",
+        "thumb": "img/stickers-framesize/thumbs/s40.jpg"
+      },
+      {
+        "id": "fs-s41",
+        "label": "מדבקה 41 · NO I DON'T (boy) · 37.5 מ״מ",
+        "src": "img/stickers-framesize/s41.jpg",
+        "thumb": "img/stickers-framesize/thumbs/s41.jpg"
+      },
+      {
+        "id": "fs-s42",
+        "label": "מדבקה 42 · TO EAT FISH · 37.5 מ״מ",
+        "src": "img/stickers-framesize/s42.jpg",
+        "thumb": "img/stickers-framesize/thumbs/s42.jpg"
+      }
+    ]
+  },
+  {
     "id": "gan-g",
     "nav": "חוברת כללית",
     "title": "חוברת גן־חובה · כללית",
