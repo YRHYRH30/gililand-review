@@ -16,8 +16,8 @@
 
 ## מקורות
 
-- חוברת חרדית: `/workspace/booklet/gililand-ganchova/v4_titles_2026-11-25/GILILAND_gan-chova_haredi_v4_titles_view.pdf` (כריכות v3 ללא שינוי; כותרות תוקנו)
-- חוברת כללית: `/workspace/booklet/gililand-ganchova/v4_titles_2026-11-25/GILILAND_gan-chova_general_v4_titles_covers_view.pdf` (כריכות חדשות + כותרות תוקנו)
+- חוברת חרדית: `/workspace/booklet/gililand-ganchova/v5_titles_exact_2026-11-25/GILILAND_gan-chova_haredi_v5_titles_exact_view.pdf` (כריכות v3 ללא שינוי; כותרות תוקנו)
+- חוברת כללית: `/workspace/booklet/gililand-ganchova/v5_titles_exact_2026-11-25/GILILAND_gan-chova_general_v5_titles_exact_covers_view.pdf` (כריכות חדשות + כותרות תוקנו)
 - נספח חוברת: `/workspace/booklet/gililand-ganchova/stickers_appendix_2026-11-24/out_files/GILILAND_gan-chova_stickers_appendix_{haredi,general}_v2.pdf`
 - סטוריבורדים: `/workspace/booklet/gililand-storyboards_2026-11-24/`
 - אלבום v4c: רסטרים מ-`album_v4b/pages_trim` עם החלפות v4c ב-p02, p04, p06, p10, p12, p24
@@ -32,3 +32,8 @@
 - חוברת כללית: כריכה קדמית ואחורית חדשות מתוך תמונת ChatGPT של יהודה (חצי שמאל = קדמית, חצי ימין = אחורית). הכריכה החרדית לא שונתה.
 - מקור החוברות באתר: `/workspace/booklet/gililand-ganchova/v4_titles_2026-11-25/`.
 - לא נשלח לאף אחד. הקומיט מקומי בלבד, בלי push.
+
+## עדכון v5 — 25.11.2026
+
+- כותרות MY GILILAND KID בחוברת גן חובה (חרדית וכללית, עמודים 9, 14, 19, 24, 29, 37, 41, 44) נבנו מחדש מתוך מקור ה-HTML/CSS והפונט המקורי של יעל (`Nunito-VariableFont_wght.ttf`, `font-weight: 900`, `13pt`, `#4b2a8c`).
+- מקור החוברות המעודכן: `/workspace/booklet/gililand-ganchova/v5_titles_exact_2026-11-25/`.
