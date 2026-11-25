@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>סטוריבורד מלא · GILILAND</title>
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<header>
+  <h1>סטוריבורד מלא · <span dir="ltr">GILILAND</span></h1>
+  <p class="sub">סקירה פנימית · 25.11.2026</p>
+  <nav class="nav-grid" id="nav"></nav>
+</header>
+<main class="wrap" id="secs"></main>
+<div class="done-wrap">
+  <button type="button" id="done">סיימתי תיקונים</button>
+  <div id="doneMsg"></div>
+  <div class="tools">
+    <button type="button" id="cp">העתקת הערות</button>
+    <button type="button" id="exp">ייצוא הערות</button>
+  </div>
+</div>
+<div id="viewer">
+  <div class="v-bar">
+    <button type="button" id="v-prev">הקודם</button>
+    <button type="button" id="v-next">הבא</button>
+    <h3 id="v-title"></h3>
+    <button type="button" class="close" id="v-close">סגירה</button>
+  </div>
+  <div class="v-body">
+    <div class="v-stage-wrap">
+      <div class="stage" id="v-stage"><img id="v-img" alt=""></div>
+    </div>
+    <aside class="v-notes">
+      <h4>הערות</h4>
+      <p class="hint">לחיצה על התמונה נועצת סיכה. אפשר לערוך ולמחוק.</p>
+      <div class="pinlist" id="v-list"></div>
+    </aside>
+  </div>
+</div>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
