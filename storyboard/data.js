@@ -780,184 +780,428 @@ var SECS = [
     ]
   },
   {
-    "id": "album",
-    "nav": "אלבום מדבקות",
-    "title": "אלבום מדבקות · v4c",
-    "navImg": "img/nav/album.jpg",
+    "id": "album-h",
+    "nav": "אלבום חרדי",
+    "title": "אלבום מדבקות · חרדי",
+    "navImg": "img/nav/album-h.jpg",
     "tall": false,
-    "note": "לאלבום עדיין אין פיצול לחרדי ולכללי. כרגע יש גרסה אחת (v4c). הפיצול ייעשה אחרי אישור הכריכה החדשה: חרדית עם כריכת v5, כללית עם הכריכה הנוכחית.",
-    "details": "24 עמודים, 220×220 מ״מ. הכריכה באלבום עצמו היא עדיין הכריכה הנוכחית (עם דמויות). למטה מוצגת גם טיוטת הכריכה החרדית v5 (בלי דמויות), שטרם הוטמעה.",
+    "note": "לחצו על עמוד, ואז על «השוואה», כדי לראות את הגרסה הכללית לצידו.",
+    "details": "24 עמודים, 220×220 מ״מ, גרסה חרדית v2. דמויות חרדיות בכריכה, בכותרות (המשפחה, הגוף) ובתוך העמודים (אבא, אמא, הילד ב«לא»).",
     "featured": [
       {
-        "kind": "pair",
-        "items": [
-          {
-            "id": "album-p01",
-            "label": "כריכה נוכחית (v4c)",
-            "src": "img/album/p01.jpg",
-            "kind": "cover"
-          },
-          {
-            "id": "album-v5-front",
-            "label": "טיוטת כריכה חרדית v5",
-            "src": "img/album/v5_front.jpg",
-            "kind": "cover"
-          }
-        ]
+        "id": "album-h-p01",
+        "label": "כריכה קדמית · חרדי",
+        "src": "img/album-h/p01.jpg",
+        "kind": "cover",
+        "compareId": "album-g-p01",
+        "ver": "חרדי"
       },
       {
-        "kind": "pair",
-        "items": [
-          {
-            "id": "album-p24",
-            "label": "גב נוכחי (v4c)",
-            "src": "img/album/p24.jpg",
-            "kind": "cover"
-          },
-          {
-            "id": "album-v5-back",
-            "label": "טיוטת גב חרדי v5",
-            "src": "img/album/v5_back.jpg",
-            "kind": "cover"
-          }
-        ]
+        "id": "album-h-p24",
+        "label": "כריכה אחורית",
+        "src": "img/album-h/p24.jpg",
+        "kind": "cover",
+        "compareId": "album-g-p24",
+        "ver": "חרדי"
       },
       {
-        "id": "album-board-07",
-        "label": "סטוריבורד · אלבום v4c, 24 עמודים",
-        "src": "img/boards/07_album_v4c.jpg",
+        "id": "album-h-board",
+        "label": "סטוריבורד · אלבום חרדי, 24 עמודים",
+        "src": "img/boards/11_album_h_v2.jpg",
         "kind": "sheet"
       },
       {
-        "id": "album-board-10",
-        "label": "סטוריבורד · טיוטת כריכה חרדית v5",
-        "src": "img/boards/10_album_cover_v5.jpg",
+        "id": "album-compare-board",
+        "label": "השוואה · חרדי לצד כללי",
+        "src": "img/boards/13_album_compare_h_g.jpg",
         "kind": "sheet"
       }
     ],
     "groups": [
       {
-        "title": "כל העמודים · גרסה נוכחית v4c",
+        "title": "כל העמודים · חרדי v2",
         "pages": [
           {
-            "id": "album-p01",
+            "id": "album-h-p01",
             "label": "כריכה קדמית",
-            "src": "img/album/p01.jpg"
+            "src": "img/album-h/p01.jpg",
+            "compareId": "album-g-p01",
+            "ver": "חרדי"
           },
           {
-            "id": "album-p02",
+            "id": "album-h-p02",
             "label": "עמוד 2",
-            "src": "img/album/p02.jpg"
+            "src": "img/album-h/p02.jpg",
+            "compareId": "album-g-p02",
+            "ver": "חרדי"
           },
           {
-            "id": "album-p03",
+            "id": "album-h-p03",
             "label": "עמוד 3",
-            "src": "img/album/p03.jpg"
+            "src": "img/album-h/p03.jpg",
+            "compareId": "album-g-p03",
+            "ver": "חרדי"
           },
           {
-            "id": "album-p04",
+            "id": "album-h-p04",
             "label": "עמוד 4",
-            "src": "img/album/p04.jpg"
+            "src": "img/album-h/p04.jpg",
+            "compareId": "album-g-p04",
+            "ver": "חרדי"
           },
           {
-            "id": "album-p05",
+            "id": "album-h-p05",
             "label": "עמוד 5",
-            "src": "img/album/p05.jpg"
+            "src": "img/album-h/p05.jpg",
+            "compareId": "album-g-p05",
+            "ver": "חרדי"
           },
           {
-            "id": "album-p06",
+            "id": "album-h-p06",
             "label": "עמוד 6",
-            "src": "img/album/p06.jpg"
+            "src": "img/album-h/p06.jpg",
+            "compareId": "album-g-p06",
+            "ver": "חרדי"
           },
           {
-            "id": "album-p07",
+            "id": "album-h-p07",
             "label": "עמוד 7",
-            "src": "img/album/p07.jpg"
+            "src": "img/album-h/p07.jpg",
+            "compareId": "album-g-p07",
+            "ver": "חרדי"
           },
           {
-            "id": "album-p08",
+            "id": "album-h-p08",
             "label": "עמוד 8",
-            "src": "img/album/p08.jpg"
+            "src": "img/album-h/p08.jpg",
+            "compareId": "album-g-p08",
+            "ver": "חרדי"
           },
           {
-            "id": "album-p09",
+            "id": "album-h-p09",
             "label": "עמוד 9",
-            "src": "img/album/p09.jpg"
+            "src": "img/album-h/p09.jpg",
+            "compareId": "album-g-p09",
+            "ver": "חרדי"
           },
           {
-            "id": "album-p10",
+            "id": "album-h-p10",
             "label": "עמוד 10",
-            "src": "img/album/p10.jpg"
+            "src": "img/album-h/p10.jpg",
+            "compareId": "album-g-p10",
+            "ver": "חרדי"
           },
           {
-            "id": "album-p11",
+            "id": "album-h-p11",
             "label": "עמוד 11",
-            "src": "img/album/p11.jpg"
+            "src": "img/album-h/p11.jpg",
+            "compareId": "album-g-p11",
+            "ver": "חרדי"
           },
           {
-            "id": "album-p12",
+            "id": "album-h-p12",
             "label": "עמוד 12",
-            "src": "img/album/p12.jpg"
+            "src": "img/album-h/p12.jpg",
+            "compareId": "album-g-p12",
+            "ver": "חרדי"
           },
           {
-            "id": "album-p13",
+            "id": "album-h-p13",
             "label": "עמוד 13",
-            "src": "img/album/p13.jpg"
+            "src": "img/album-h/p13.jpg",
+            "compareId": "album-g-p13",
+            "ver": "חרדי"
           },
           {
-            "id": "album-p14",
+            "id": "album-h-p14",
             "label": "עמוד 14",
-            "src": "img/album/p14.jpg"
+            "src": "img/album-h/p14.jpg",
+            "compareId": "album-g-p14",
+            "ver": "חרדי"
           },
           {
-            "id": "album-p15",
+            "id": "album-h-p15",
             "label": "עמוד 15",
-            "src": "img/album/p15.jpg"
+            "src": "img/album-h/p15.jpg",
+            "compareId": "album-g-p15",
+            "ver": "חרדי"
           },
           {
-            "id": "album-p16",
+            "id": "album-h-p16",
             "label": "עמוד 16",
-            "src": "img/album/p16.jpg"
+            "src": "img/album-h/p16.jpg",
+            "compareId": "album-g-p16",
+            "ver": "חרדי"
           },
           {
-            "id": "album-p17",
+            "id": "album-h-p17",
             "label": "עמוד 17",
-            "src": "img/album/p17.jpg"
+            "src": "img/album-h/p17.jpg",
+            "compareId": "album-g-p17",
+            "ver": "חרדי"
           },
           {
-            "id": "album-p18",
+            "id": "album-h-p18",
             "label": "עמוד 18",
-            "src": "img/album/p18.jpg"
+            "src": "img/album-h/p18.jpg",
+            "compareId": "album-g-p18",
+            "ver": "חרדי"
           },
           {
-            "id": "album-p19",
+            "id": "album-h-p19",
             "label": "עמוד 19",
-            "src": "img/album/p19.jpg"
+            "src": "img/album-h/p19.jpg",
+            "compareId": "album-g-p19",
+            "ver": "חרדי"
           },
           {
-            "id": "album-p20",
+            "id": "album-h-p20",
             "label": "עמוד 20",
-            "src": "img/album/p20.jpg"
+            "src": "img/album-h/p20.jpg",
+            "compareId": "album-g-p20",
+            "ver": "חרדי"
           },
           {
-            "id": "album-p21",
+            "id": "album-h-p21",
             "label": "עמוד 21",
-            "src": "img/album/p21.jpg"
+            "src": "img/album-h/p21.jpg",
+            "compareId": "album-g-p21",
+            "ver": "חרדי"
           },
           {
-            "id": "album-p22",
+            "id": "album-h-p22",
             "label": "עמוד 22",
-            "src": "img/album/p22.jpg"
+            "src": "img/album-h/p22.jpg",
+            "compareId": "album-g-p22",
+            "ver": "חרדי"
           },
           {
-            "id": "album-p23",
+            "id": "album-h-p23",
             "label": "עמוד 23",
-            "src": "img/album/p23.jpg"
+            "src": "img/album-h/p23.jpg",
+            "compareId": "album-g-p23",
+            "ver": "חרדי"
           },
           {
-            "id": "album-p24",
+            "id": "album-h-p24",
             "label": "כריכה אחורית",
-            "src": "img/album/p24.jpg"
+            "src": "img/album-h/p24.jpg",
+            "compareId": "album-g-p24",
+            "ver": "חרדי"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "album-g",
+    "nav": "אלבום כללי",
+    "title": "אלבום מדבקות · כללי",
+    "navImg": "img/nav/album-g.jpg",
+    "tall": false,
+    "note": "לחצו על עמוד, ואז על «השוואה», כדי לראות את הגרסה החרדית לצידו.",
+    "details": "24 עמודים, 220×220 מ״מ, גרסה כללית v4c. הכריכה הקיימת, בלי שינוי. משבצות אחידות 472 פיקסלים, זכויות יוצרים בעמוד האחורי.",
+    "featured": [
+      {
+        "id": "album-g-p01",
+        "label": "כריכה קדמית · כללי",
+        "src": "img/album/p01.jpg",
+        "kind": "cover",
+        "compareId": "album-h-p01",
+        "ver": "כללי"
+      },
+      {
+        "id": "album-g-p24",
+        "label": "כריכה אחורית",
+        "src": "img/album/p24.jpg",
+        "kind": "cover",
+        "compareId": "album-h-p24",
+        "ver": "כללי"
+      },
+      {
+        "id": "album-g-board",
+        "label": "סטוריבורד · אלבום כללי, 24 עמודים",
+        "src": "img/boards/12_album_g_v4c.jpg",
+        "kind": "sheet"
+      },
+      {
+        "id": "album-compare-board-g",
+        "label": "השוואה · חרדי לצד כללי",
+        "src": "img/boards/13_album_compare_h_g.jpg",
+        "kind": "sheet"
+      }
+    ],
+    "groups": [
+      {
+        "title": "כל העמודים · כללי v4c",
+        "pages": [
+          {
+            "id": "album-g-p01",
+            "label": "כריכה קדמית",
+            "src": "img/album/p01.jpg",
+            "compareId": "album-h-p01",
+            "ver": "כללי"
+          },
+          {
+            "id": "album-g-p02",
+            "label": "עמוד 2",
+            "src": "img/album/p02.jpg",
+            "compareId": "album-h-p02",
+            "ver": "כללי"
+          },
+          {
+            "id": "album-g-p03",
+            "label": "עמוד 3",
+            "src": "img/album/p03.jpg",
+            "compareId": "album-h-p03",
+            "ver": "כללי"
+          },
+          {
+            "id": "album-g-p04",
+            "label": "עמוד 4",
+            "src": "img/album/p04.jpg",
+            "compareId": "album-h-p04",
+            "ver": "כללי"
+          },
+          {
+            "id": "album-g-p05",
+            "label": "עמוד 5",
+            "src": "img/album/p05.jpg",
+            "compareId": "album-h-p05",
+            "ver": "כללי"
+          },
+          {
+            "id": "album-g-p06",
+            "label": "עמוד 6",
+            "src": "img/album/p06.jpg",
+            "compareId": "album-h-p06",
+            "ver": "כללי"
+          },
+          {
+            "id": "album-g-p07",
+            "label": "עמוד 7",
+            "src": "img/album/p07.jpg",
+            "compareId": "album-h-p07",
+            "ver": "כללי"
+          },
+          {
+            "id": "album-g-p08",
+            "label": "עמוד 8",
+            "src": "img/album/p08.jpg",
+            "compareId": "album-h-p08",
+            "ver": "כללי"
+          },
+          {
+            "id": "album-g-p09",
+            "label": "עמוד 9",
+            "src": "img/album/p09.jpg",
+            "compareId": "album-h-p09",
+            "ver": "כללי"
+          },
+          {
+            "id": "album-g-p10",
+            "label": "עמוד 10",
+            "src": "img/album/p10.jpg",
+            "compareId": "album-h-p10",
+            "ver": "כללי"
+          },
+          {
+            "id": "album-g-p11",
+            "label": "עמוד 11",
+            "src": "img/album/p11.jpg",
+            "compareId": "album-h-p11",
+            "ver": "כללי"
+          },
+          {
+            "id": "album-g-p12",
+            "label": "עמוד 12",
+            "src": "img/album/p12.jpg",
+            "compareId": "album-h-p12",
+            "ver": "כללי"
+          },
+          {
+            "id": "album-g-p13",
+            "label": "עמוד 13",
+            "src": "img/album/p13.jpg",
+            "compareId": "album-h-p13",
+            "ver": "כללי"
+          },
+          {
+            "id": "album-g-p14",
+            "label": "עמוד 14",
+            "src": "img/album/p14.jpg",
+            "compareId": "album-h-p14",
+            "ver": "כללי"
+          },
+          {
+            "id": "album-g-p15",
+            "label": "עמוד 15",
+            "src": "img/album/p15.jpg",
+            "compareId": "album-h-p15",
+            "ver": "כללי"
+          },
+          {
+            "id": "album-g-p16",
+            "label": "עמוד 16",
+            "src": "img/album/p16.jpg",
+            "compareId": "album-h-p16",
+            "ver": "כללי"
+          },
+          {
+            "id": "album-g-p17",
+            "label": "עמוד 17",
+            "src": "img/album/p17.jpg",
+            "compareId": "album-h-p17",
+            "ver": "כללי"
+          },
+          {
+            "id": "album-g-p18",
+            "label": "עמוד 18",
+            "src": "img/album/p18.jpg",
+            "compareId": "album-h-p18",
+            "ver": "כללי"
+          },
+          {
+            "id": "album-g-p19",
+            "label": "עמוד 19",
+            "src": "img/album/p19.jpg",
+            "compareId": "album-h-p19",
+            "ver": "כללי"
+          },
+          {
+            "id": "album-g-p20",
+            "label": "עמוד 20",
+            "src": "img/album/p20.jpg",
+            "compareId": "album-h-p20",
+            "ver": "כללי"
+          },
+          {
+            "id": "album-g-p21",
+            "label": "עמוד 21",
+            "src": "img/album/p21.jpg",
+            "compareId": "album-h-p21",
+            "ver": "כללי"
+          },
+          {
+            "id": "album-g-p22",
+            "label": "עמוד 22",
+            "src": "img/album/p22.jpg",
+            "compareId": "album-h-p22",
+            "ver": "כללי"
+          },
+          {
+            "id": "album-g-p23",
+            "label": "עמוד 23",
+            "src": "img/album/p23.jpg",
+            "compareId": "album-h-p23",
+            "ver": "כללי"
+          },
+          {
+            "id": "album-g-p24",
+            "label": "כריכה אחורית",
+            "src": "img/album/p24.jpg",
+            "compareId": "album-h-p24",
+            "ver": "כללי"
           }
         ]
       }

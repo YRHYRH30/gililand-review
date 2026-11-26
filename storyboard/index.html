@@ -9,7 +9,7 @@
 <body>
 <header>
   <h1>סטוריבורד מלא · <span dir="ltr">GILILAND</span></h1>
-  <p class="sub">סקירה פנימית · 25.11.2026</p>
+  <p class="sub">סקירה פנימית · 26.11.2026</p>
   <nav class="nav-grid" id="nav"></nav>
 </header>
 <main class="wrap" id="secs"></main>
@@ -25,12 +25,14 @@
   <div class="v-bar">
     <button type="button" id="v-prev">הקודם</button>
     <button type="button" id="v-next">הבא</button>
+    <button type="button" id="v-cmp">השוואה</button>
     <h3 id="v-title"></h3>
     <button type="button" class="close" id="v-close">סגירה</button>
   </div>
   <div class="v-body">
-    <div class="v-stage-wrap">
-      <div class="stage" id="v-stage"><img id="v-img" alt=""></div>
+    <div class="v-stage-wrap" id="v-stage-wrap">
+      <div class="stage" id="v-stage"><img id="v-img" alt=""><div class="v-ver" id="v-ver-a"></div></div>
+      <div class="stage" id="v-stage-b"><img id="v-img-b" alt=""><div class="v-ver" id="v-ver-b"></div></div>
     </div>
     <aside class="v-notes">
       <h4>הערות</h4>

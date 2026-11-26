@@ -52,7 +52,7 @@
     return n;
   }
 
-  var viewer = { open: false, sec: null, index: 0, list: [], sel: -1 };
+  var viewer = { open: false, sec: null, index: 0, list: [], sel: -1, compare: false };
 
   function renderNav() {
     var nav = byId("nav");
@@ -187,13 +187,37 @@
     renderSecs();
     setActiveNav();
   }
+  function pairOf(pg) {
+    if (!pg || !pg.compareId) return null;
+    return pageById(pg.compareId);
+  }
   function drawViewer() {
     var s = secById(viewer.sec);
     var pg = viewer.list[viewer.index];
+    var pair = pairOf(pg);
+    var cmpBtn = byId("v-cmp");
+    if (pair) {
+      cmpBtn.classList.add("show");
+    } else {
+      cmpBtn.classList.remove("show");
+      viewer.compare = false;
+    }
+    cmpBtn.classList.toggle("active", !!(viewer.compare && pair));
+    var wrap = byId("v-stage-wrap");
+    wrap.classList.toggle("compare", !!(viewer.compare && pair));
     byId("v-title").textContent = s.title + " · " + pg.label;
     var img = byId("v-img");
     img.alt = pg.label;
     if (img.getAttribute("src") !== pg.src) img.src = pg.src;
+    var verA = byId("v-ver-a");
+    verA.textContent = pg.ver || s.nav || "";
+    if (viewer.compare && pair) {
+      var imgB = byId("v-img-b");
+      var other = pair.page;
+      imgB.alt = other.label;
+      if (imgB.getAttribute("src") !== other.src) imgB.src = other.src;
+      byId("v-ver-b").textContent = other.ver || (pair.sec && pair.sec.nav) || "";
+    }
     drawPins();
   }
   function drawPins() {
@@ -268,6 +292,12 @@
     if (viewer.index < viewer.list.length - 1) { viewer.index++; viewer.sel = -1; drawViewer(); }
   };
   byId("v-close").onclick = closeViewer;
+  byId("v-cmp").onclick = function () {
+    var pg = viewer.list[viewer.index];
+    if (!pairOf(pg)) return;
+    viewer.compare = !viewer.compare;
+    drawViewer();
+  };
   document.addEventListener("keydown", function (e) {
     if (!viewer.open) return;
     if (e.key === "Escape") { closeViewer(); return; }
